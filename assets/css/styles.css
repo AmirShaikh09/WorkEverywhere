@@ -1,0 +1,99 @@
+/* reset predefined styles start */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* reset predefined styles end */
+
+/* main div styles start */
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+/* main div styles end */
+
+/* top div styles start */
+.top-child{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-child, .right-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 50%;
+}
+
+.left-child .card,
+.right-child .card{
+    height: auto;
+    width: 220px;
+}
+
+.left-child .card-title,
+.right-child .card-title{
+    color: rgb(161, 161, 241);
+}
+
+.left-child .card-subtitle,
+.right-child .card-subtitle{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.left-child .card-text,
+.right-child .card-text{
+    font-size: 0.8rem;
+}
+
+.left-child .card-link,
+.right-child .card-link{
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    font-weight: 700;
+}
+/* top div styles end */
+
+/* bottom div styles start */
+.bottom-child{
+    display: flex;
+    right: 0;
+    left: 0;
+}
+
+.bottom-right-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bottom-right-child .card-title{
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgb(161, 161, 241);
+}
+
+.bottom-right-child .card-subtitle{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.bottom-right-child .card-text{
+    font-size: 0.8rem;
+}
+
+.bottom-right-child .card-link{
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+/* top div styles start */
